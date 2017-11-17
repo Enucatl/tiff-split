@@ -56,7 +56,6 @@ def main(n, m, folder):
                     compressed_filename)
                 subprocess.check_call(command, shell=True)
                 os.remove(output_filename)
-        break
 
 
 if __name__ == "__main__":
