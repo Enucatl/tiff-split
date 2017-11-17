@@ -1,3 +1,4 @@
 click
-tifffile
 numpy
+tifffile
+tqdm
