@@ -55,7 +55,6 @@ def main(n, m, folder):
                     output_filename,
                     compressed_filename)
                 subprocess.check_call(command, shell=True)
-                print(compressed_filename)
                 os.remove(output_filename)
         break
 
